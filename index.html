@@ -107,7 +107,11 @@
     <div class="container is-max-desktop">
       <div class="hero-body">
         <div class="columns is-centered">
-          <video poster="" id="tree" autoplay controls muted loop height="60%">
+          <video poster="" id="tree" autoplay controls muted loop height="30%">
+            <source src="static/videos/teaser_video.mp4"
+            type="video/mp4">
+          </video>
+          <video poster="" id="tree" autoplay controls muted loop height="30%">
             <source src="static/videos/teaser_video.mp4"
             type="video/mp4">
           </video>
@@ -135,18 +139,63 @@ Freedom (DoF) intrinsic parameters. First, we show intrinsic is determined by th
 </section>
 <!-- End paper abstract -->
 
+
+<!--<section class="section">-->
+<!--  <div class="container is-max-desktop">-->
+
+<!--    <div class="columns is-centered">-->
+
+<!--      &lt;!&ndash; Visual Effects. &ndash;&gt;-->
+<!--      <div class="column">-->
+<!--        <div class="content">-->
+<!--          <h2 class="title is-3">Visual Effects</h2>-->
+<!--          <p>-->
+<!--            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect-->
+<!--            would be impossible without nerfies since it would require going through a wall.-->
+<!--          </p>-->
+<!--          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">-->
+<!--            <source src="./static/videos/dollyzoom-stacked.mp4"-->
+<!--                    type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      &lt;!&ndash;/ Visual Effects. &ndash;&gt;-->
+
+<!--      &lt;!&ndash; Matting. &ndash;&gt;-->
+<!--      <div class="column">-->
+<!--        <h2 class="title is-3">Matting</h2>-->
+<!--        <div class="columns is-centered">-->
+<!--          <div class="column content">-->
+<!--            <p>-->
+<!--              As a byproduct of our method, we can also solve the matting problem by ignoring-->
+<!--              samples that fall outside of a bounding box during rendering.-->
+<!--            </p>-->
+<!--            <video id="matting-video" controls playsinline height="100%">-->
+<!--              <source src="./static/videos/matting.mp4"-->
+<!--                      type="video/mp4">-->
+<!--            </video>-->
+<!--          </div>-->
+
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;/ Matting. &ndash;&gt;-->
+
+<!--  </div>-->
+<!--</section>-->
+
 <!--BibTex citation -->
 <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>
-          @inproceedings{
+        @inproceedings{
           zhu2023tame,
           title={Tame a Wild Camera: In-the-Wild Monocular Camera Calibration},
           author={Shengjie Zhu and Abhinav Kumar and Masa Hu and Xiaoming Liu},
           booktitle={NeuRIPS},
           year={2023}
-          }</code></pre>
+        }</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
